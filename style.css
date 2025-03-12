@@ -121,3 +121,64 @@ body{
     text-decoration: line-through;
     color: #888;
 }
+
+/* התאמות למכשירים ניידים */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        min-width: unset;
+        top: 20%;
+    }
+    
+    #newtask {
+        padding: 20px 15px;
+    }
+    
+    #newtask input {
+        width: 65%;
+        font-size: 14px;
+    }
+    
+    #newtask button {
+        width: 30%;
+        font-size: 14px;
+    }
+    
+    .task {
+        padding: 8px 8px;
+    }
+    
+    .task-label {
+        font-size: 14px;
+        word-break: break-word;
+    }
+}
+
+/* התאמות למסכים קטנים מאוד */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+        top: 15%;
+    }
+    
+    #head-text {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    
+    #newtask {
+        padding: 15px 10px;
+    }
+    
+    #newtask input {
+        width: 60%;
+        height: 40px;
+        font-size: 13px;
+    }
+    
+    #newtask button {
+        width: 35%;
+        height: 40px;
+        font-size: 13px;
+    }
+}
